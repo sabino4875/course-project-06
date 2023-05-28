@@ -1,0 +1,13 @@
+{
+  "version":"1.0.1",
+  "private":true,
+  "scripts":{
+    "test": "serverless package -r us-east-1 -s test",
+    "deploy": "serverless deploy -r us-east-1 --verbose",
+    "remove": "serverless remove -r us-east-1 --verbose"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1386.0",
+    "uuid": "^9.0.0"
+  }
+}
